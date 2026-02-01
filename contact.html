@@ -5,13 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Achille</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Ionicons pour les icônes -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body data-theme="dark" id="contact-page">
 
-
-  <!-- HEADER -->
   <header class="header">
     <div class="nav-container">
       <h1 class="logo">Achille.</h1>
@@ -32,12 +29,10 @@
     </div>
   </header>
 
-  <!-- MAIN -->
   <main class="contact-wrapper">
     <section id="contact-section" class="contact-section">
       <div class="contact-container">
         
-        <!-- Partie gauche -->
         <div class="contact-info">
           <h2 data-lang-fr="CONTACT" data-lang-en="CONTACT">CONTACT</h2>
           <h3 data-lang-fr="AVEZ-VOUS UN PROJET ?" data-lang-en="DO YOU HAVE A PROJECT?">AVEZ-VOUS UN PROJET ?</h3>
@@ -50,7 +45,6 @@
             Remplissez le formulaire et je vous répondrai dans les plus brefs délais.
           </p>
 
-          <!-- Icônes réseaux sociaux -->
           <div class="social-icons">
             <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
             <a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
@@ -58,8 +52,7 @@
           </div>
         </div>
 
-        <!-- Partie droite : formulaire -->
-        <form id="contactForm" class="contact-form" action="send.php" method="POST">
+        <form id="contactForm" class="contact-form" name="contact" method="POST" data-netlify="true">
           <input type="text" name="name" placeholder="Nom (ex: Achille)" required />
           <input type="email" name="email" placeholder="E-mail (ex: kabore@mail.com)" required />
           <input type="tel" name="phone" placeholder="Téléphone" />
@@ -69,20 +62,15 @@
 
       </div>
 
-      <!-- Zone pour afficher le statut --> 
       <div id="form-status"></div>
     </section>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <p>© 2026 Achille</p>
   </footer>
 
-  <!-- Scripts -->
-  <!-- ⚠️ Important : form.js doit être chargé après le formulaire -->
   <script src="assets/js/form.js"></script>
-  <!-- main.js doit rester séparé et ne pas gérer le formulaire -->
   <script src="assets/js/main.js"></script>
 
 </body>
