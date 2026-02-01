@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes œuvres | Achille</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-theme="dark">
+
+  <!-- MENU GLOBAL -->
+  <header class="header">
+    <div class="nav-container">
+      <h1 class="logo">Achille.</h1>
+      <nav class="nav-links">
+        <a href="index.html">Maison</a>
+        <a href="about.html">À propos</a>
+        <a href="competences.html">Compétences</a>
+        <a href="oeuvres.html" class="active">Œuvres</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="navbar-actions">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+        <button id="theme-toggle">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION MES ŒUVRES -->
+  <main >
+  <section class="works-section">
+  
+    <div class="works-container">
+      <div class="works-text">
+        <h2 data-lang-fr="MES ŒUVRES" data-lang-en="MY WORKS">MES ŒUVRES</h2>
+        <p data-lang-fr="Découvrez mes œuvres, elles vous émerveilleront ! Nous développons des sites web de haute qualité, conçus pour durer. Leur interface claire, élégante et bien documentée est accessible même aux utilisateurs non techniques."
+           data-lang-en="Discover my works, they will amaze you! We build high-quality websites designed to last. Their clear, elegant, and well-documented interface is accessible even to non-technical users.">
+          Découvrez mes œuvres, elles vous émerveilleront ! Nous développons des sites web de haute qualité...
+        </p>
+      </div>
+
+      <!-- Grille de cartes -->
+      <div class="works-grid">
+        <div class="work-card">
+          <img src="assets/oeuvres/macintosh.png" alt="Macintosh vintage" />
+          <h3>Projet Vintage</h3>
+          <p>Avril 2022</p>
+        </div>
+        <div class="work-card">
+          <img src="assets/oeuvres/valise.png" alt="Valise de voyage" />
+          <h3>Projet Voyage</h3>
+          <p>Mai 2022</p>
+        </div>
+        <div class="work-card">
+          <img src="assets/oeuvres/tablette.png" alt="Tablette graphique" />
+          <h3>Illustration Digitale</h3>
+          <p>Juin 2022</p>
+        </div>
+        <div class="work-card">
+          <img src="assets/oeuvres/smartwatch.png" alt="Smartwatch et lunettes" />
+          <h3>Design Produit</h3>
+          <p>Juillet 2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Achille</p>
+  </footer>
+</body>
+</html>

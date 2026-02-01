@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes compétences | Achille</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-theme="dark">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="nav-container">
+      <h1 class="logo">Achille.</h1>
+      <nav class="nav-links">
+        <a href="index.html" data-lang-fr="Maison" data-lang-en="Home">Maison</a>
+        <a href="about.html" data-lang-fr="À propos de" data-lang-en="About">À propos de</a>
+        <a href="competences.html" data-lang-fr="Compétences" data-lang-en="Skills">Compétences</a>
+        <a href="oeuvres.html" data-lang-fr="Mes Œuvres" data-lang-en="My Works">Mes Œuvres</a>
+        <a href="contact.html" data-lang-fr="Contact" data-lang-en="Contact">Contact</a>
+      </nav>
+      <div class="navbar-actions">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+        <button id="theme-toggle">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION COMPÉTENCES -->
+  <main>
+    <section class="skills-section">
+      <h2 data-lang-fr="MES COMPÉTENCES" data-lang-en="MY SKILLS">MES COMPÉTENCES</h2>
+      <h3 data-lang-fr="Quelles étaient mes compétences en programmation ?" data-lang-en="What were my programming skills?">
+        Quelles étaient mes compétences en programmation ?
+      </h3>
+      <p data-lang-fr="Je développe des interfaces utilisateur simples, intuitives et réactives qui aident les utilisateurs à accomplir leurs tâches plus facilement et plus rapidement grâce à ces technologies."
+         data-lang-en="I develop simple, intuitive, and responsive user interfaces that help users accomplish tasks more easily and quickly using these technologies.">
+        Je développe des interfaces utilisateur simples, intuitives et réactives...
+      </p>
+
+      <!-- Boutons -->
+      <div class="skills-toggle">
+        <button class="skills-btn active">Compétences</button>
+        <button class="skills-btn">Outils</button>
+      </div>
+
+      <!-- Icônes -->
+      <div class="skills-grid">
+        <img src="assets/icons/html5.svg" alt="HTML5" />
+        <img src="assets/icons/css3.svg" alt="CSS3" />
+        <img src="assets/icons/javascript.svg" alt="JavaScript" />
+        <img src="assets/icons/typescript.svg" alt="TypeScript" />
+        <img src="assets/icons/jquery.svg" alt="jQuery" />
+        <img src="assets/icons/bootstrap.svg" alt="Bootstrap" />
+        <img src="assets/icons/angular.svg" alt="Angular" />
+        <img src="assets/icons/react.svg" alt="React" />
+        <img src="assets/icons/vue.svg" alt="Vue.js" />
+        <img src="assets/icons/firebase.svg" alt="Firebase" />
+        <img src="assets/icons/pug.svg" alt="Pug" />
+        <img src="assets/icons/sass.svg" alt="Sass" />
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Achille</p>
+  </footer>
+</body>
+</html>
