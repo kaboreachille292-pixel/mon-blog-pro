@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Achille</title>
+  
   <link rel="stylesheet" href="assets/css/style.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
@@ -13,42 +14,31 @@
     <div class="nav-container">
       <h1 class="logo">Achille.</h1>
       <nav class="nav-links">
-        <a href="index.html" data-lang-fr="Maison" data-lang-en="Home">Maison</a>
-        <a href="about.html" data-lang-fr="À propos de" data-lang-en="About">À propos de</a>
-        <a href="competences.html" data-lang-fr="Compétences" data-lang-en="Skills">Compétences</a>
-        <a href="oeuvres.html" data-lang-fr="Mes Œuvres" data-lang-en="My Works">Mes Œuvres</a>
-        <a href="contact.html" data-lang-fr="Contact" data-lang-en="Contact">Contact</a>
+        <a href="index.html">Maison</a>
+        <a href="about.html">À propos de</a>
+        <a href="competences.html">Compétences</a>
+        <a href="oeuvres.html">Mes Œuvres</a>
+        <a href="contact.html">Contact</a>
       </nav>
       <div class="navbar-actions">
-        <select id="lang-select">
-          <option value="fr">Français</option>
-          <option value="en">English</option>
-        </select>
         <button id="theme-toggle">🌙</button>
       </div>
     </div>
   </header>
 
   <main class="contact-wrapper">
-    <section id="contact-section" class="contact-section">
+    <section class="contact-section">
       <div class="contact-container">
         
         <div class="contact-info">
-          <h2 data-lang-fr="CONTACT" data-lang-en="CONTACT">CONTACT</h2>
-          <h3 data-lang-fr="AVEZ-VOUS UN PROJET ?" data-lang-en="DO YOU HAVE A PROJECT?">AVEZ-VOUS UN PROJET ?</h3>
-          <p data-lang-fr="Veuillez laisser un message. N'hésitez pas à me contacter pour me dire comment je peux vous aider."
-             data-lang-en="Please leave a message. Feel free to contact me to tell me how I can help you.">
-            Veuillez laisser un message. N'hésitez pas à me contacter pour me dire comment je peux vous aider.
-          </p>
-          <p data-lang-fr="Remplissez le formulaire et je vous répondrai dans les plus brefs délais."
-             data-lang-en="Fill out the form and I will reply as soon as possible.">
-            Remplissez le formulaire et je vous répondrai dans les plus brefs délais.
-          </p>
-
+          <h2>CONTACT</h2>
+          <h3>AVEZ-VOUS UN PROJET ?</h3>
+          <p>N'hésitez pas à me contacter pour me dire comment je peux vous aider.</p>
+          
           <div class="social-icons">
-            <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
           </div>
         </div>
 
@@ -56,8 +46,8 @@
           
           <input type="hidden" name="form-name" value="contact" />
 
-          <input type="text" name="name" placeholder="Nom (ex: Achille)" required />
-          <input type="email" name="email" placeholder="E-mail (ex: kabore@mail.com)" required />
+          <input type="text" name="name" placeholder="Nom" required />
+          <input type="email" name="email" placeholder="E-mail" required />
           <input type="tel" name="phone" placeholder="Téléphone" />
           <textarea name="message" rows="5" placeholder="Écrire un message..." required></textarea>
           
@@ -75,7 +65,6 @@
   </footer>
 
   <script src="assets/js/form.js"></script>
-  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
